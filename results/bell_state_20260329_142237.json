@@ -1,0 +1,22 @@
+{
+  "timestamp": "20260329_142237",
+  "backend": "ibm_torino",
+  "job_id": "d74egjgqhmps73b41bf0",
+  "shots": 1024,
+  "circuit": "Bell State 2Q",
+  "simulator_result": {
+    "11": 517,
+    "00": 507
+  },
+  "real_hardware_result": {
+    "00": 460,
+    "11": 445,
+    "10": 62,
+    "01": 57
+  },
+  "noise_states": {
+    "10": 62,
+    "01": 57
+  },
+  "noise_percentage": 11.6211
+}

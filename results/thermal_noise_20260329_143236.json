@@ -1,0 +1,118 @@
+{
+  "platform": "Raspberry Pi 5 8GB",
+  "description": "Environmental noise model \u2014 CPU temperature drives decoherence rate",
+  "hypothesis": "Higher CPU temperature correlates with higher simulated quantum noise",
+  "readings": [
+    {
+      "reading": 1,
+      "cpu_temp_celsius": 45.2,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "10": 1,
+        "00": 531,
+        "11": 492
+      },
+      "noise_percentage": 0.0977
+    },
+    {
+      "reading": 2,
+      "cpu_temp_celsius": 43.0,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "11": 508,
+        "00": 516
+      },
+      "noise_percentage": 0.0
+    },
+    {
+      "reading": 3,
+      "cpu_temp_celsius": 43.0,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "01": 2,
+        "00": 495,
+        "11": 527
+      },
+      "noise_percentage": 0.1953
+    },
+    {
+      "reading": 4,
+      "cpu_temp_celsius": 43.0,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "10": 1,
+        "01": 2,
+        "11": 540,
+        "00": 481
+      },
+      "noise_percentage": 0.293
+    },
+    {
+      "reading": 5,
+      "cpu_temp_celsius": 43.0,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "10": 1,
+        "11": 521,
+        "00": 502
+      },
+      "noise_percentage": 0.0977
+    },
+    {
+      "reading": 6,
+      "cpu_temp_celsius": 42.45,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "10": 1,
+        "00": 485,
+        "11": 538
+      },
+      "noise_percentage": 0.0977
+    },
+    {
+      "reading": 7,
+      "cpu_temp_celsius": 45.75,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "01": 1,
+        "10": 1,
+        "00": 487,
+        "11": 535
+      },
+      "noise_percentage": 0.1953
+    },
+    {
+      "reading": 8,
+      "cpu_temp_celsius": 43.0,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "10": 1,
+        "01": 1,
+        "11": 519,
+        "00": 503
+      },
+      "noise_percentage": 0.1953
+    },
+    {
+      "reading": 9,
+      "cpu_temp_celsius": 44.1,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "00": 524,
+        "11": 500
+      },
+      "noise_percentage": 0.0
+    },
+    {
+      "reading": 10,
+      "cpu_temp_celsius": 43.0,
+      "error_rate_applied": 0.001,
+      "bell_state_counts": {
+        "10": 2,
+        "11": 530,
+        "00": 492
+      },
+      "noise_percentage": 0.1953
+    }
+  ]
+}

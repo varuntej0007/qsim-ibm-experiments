@@ -1,0 +1,63 @@
+{
+  "platform": "Raspberry Pi 5 8GB",
+  "quantum_backend": "IBM Quantum (ibm_torino / least busy)",
+  "experiments": [
+    {
+      "circuit": "Bell State 2Q",
+      "timestamp": "20260329_142237",
+      "backend": "ibm_torino",
+      "job_id": "d74egjgqhmps73b41bf0",
+      "shots": 1024,
+      "simulator_result": {
+        "11": 517,
+        "00": 507
+      },
+      "real_hardware_result": {
+        "00": 460,
+        "11": 445,
+        "10": 62,
+        "01": 57
+      },
+      "noise_percentage": 11.6211
+    },
+    {
+      "circuit": "GHZ State 3Q",
+      "timestamp": "20260329_142753",
+      "backend": "ibm_torino",
+      "job_id": "d74ej2dkoquc73e2m7og",
+      "shots": 1024,
+      "simulator_result": {
+        "111": 523,
+        "000": 501
+      },
+      "real_hardware_result": {
+        "000": 549,
+        "111": 423,
+        "001": 9,
+        "011": 8,
+        "101": 20,
+        "110": 6,
+        "100": 5,
+        "010": 4
+      },
+      "noise_percentage": 5.0781
+    },
+    {
+      "circuit": "Grover Search 2Q target=11",
+      "timestamp": "20260329_142919",
+      "backend": "ibm_torino",
+      "job_id": "d74ejngqhmps73b41edg",
+      "shots": 1024,
+      "simulator_result": {
+        "11": 1024
+      },
+      "real_hardware_result": {
+        "11": 845,
+        "01": 86,
+        "10": 81,
+        "00": 12
+      },
+      "noise_percentage": 16.3086
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp": "20260329_142753",
+  "circuit": "GHZ State 3Q",
+  "backend": "ibm_torino",
+  "job_id": "d74ej2dkoquc73e2m7og",
+  "shots": 1024,
+  "simulator_result": {
+    "111": 523,
+    "000": 501
+  },
+  "real_hardware_result": {
+    "000": 549,
+    "111": 423,
+    "001": 9,
+    "011": 8,
+    "101": 20,
+    "110": 6,
+    "100": 5,
+    "010": 4
+  },
+  "noise_states": {
+    "001": 9,
+    "011": 8,
+    "101": 20,
+    "110": 6,
+    "100": 5,
+    "010": 4
+  },
+  "noise_percentage": 5.0781
+}

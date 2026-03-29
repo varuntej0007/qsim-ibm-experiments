@@ -1,0 +1,20 @@
+{
+  "timestamp": "20260329_142919",
+  "circuit": "Grover Search 2Q target=11",
+  "backend": "ibm_torino",
+  "job_id": "d74ejngqhmps73b41edg",
+  "shots": 1024,
+  "simulator_result": {
+    "11": 1024
+  },
+  "real_hardware_result": {
+    "11": 845,
+    "01": 86,
+    "10": 81,
+    "00": 12
+  },
+  "target_state": "11",
+  "target_probability_sim": 1.0,
+  "target_probability_real": 0.8252,
+  "noise_percentage": 16.3086
+}
