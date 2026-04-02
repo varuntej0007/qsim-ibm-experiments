@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-04-02 17:06:24",
+  "platform": "aarch64",
+  "results": [
+    {
+      "algorithm": "Dilithium2",
+      "standard": "FIPS 204",
+      "type": "Lattice-MLWE",
+      "iterations": 50,
+      "keygen_ms": 12.0204,
+      "sign_ms": 83.4015,
+      "verify_ms": 14.0691,
+      "pubkey_bytes": 1312,
+      "sig_bytes": 2420
+    },
+    {
+      "algorithm": "Dilithium3",
+      "standard": "FIPS 204",
+      "type": "Lattice-MLWE",
+      "iterations": 50,
+      "keygen_ms": 18.2678,
+      "sign_ms": 40.8107,
+      "verify_ms": 21.8407,
+      "pubkey_bytes": 1952,
+      "sig_bytes": 3293
+    },
+    {
+      "algorithm": "Dilithium5",
+      "standard": "FIPS 204",
+      "type": "Lattice-MLWE",
+      "iterations": 50,
+      "keygen_ms": 28.5099,
+      "sign_ms": 312.5946,
+      "verify_ms": 33.6045,
+      "pubkey_bytes": 2592,
+      "sig_bytes": 4595
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-128s",
+      "standard": "FIPS 205",
+      "type": "Hash-SHA2",
+      "security_bits": 128,
+      "iterations": 50,
+      "keygen_ms": 0.005,
+      "sign_ms": 0.0429,
+      "verify_ms": 0.002,
+      "pubkey_bytes": 32,
+      "sig_bytes": 352
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-128f",
+      "standard": "FIPS 205",
+      "type": "Hash-SHA2",
+      "security_bits": 128,
+      "iterations": 50,
+      "keygen_ms": 0.0043,
+      "sign_ms": 0.0556,
+      "verify_ms": 0.0019,
+      "pubkey_bytes": 32,
+      "sig_bytes": 496
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-192s",
+      "standard": "FIPS 205",
+      "type": "Hash-SHA2",
+      "security_bits": 192,
+      "iterations": 50,
+      "keygen_ms": 0.0045,
+      "sign_ms": 0.0465,
+      "verify_ms": 0.002,
+      "pubkey_bytes": 48,
+      "sig_bytes": 600
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-256s",
+      "standard": "FIPS 205",
+      "type": "Hash-SHA2",
+      "security_bits": 256,
+      "iterations": 50,
+      "keygen_ms": 0.0043,
+      "sign_ms": 0.0568,
+      "verify_ms": 0.002,
+      "pubkey_bytes": 64,
+      "sig_bytes": 992
+    },
+    {
+      "algorithm": "RSA-2048",
+      "standard": "BROKEN-SHORS",
+      "type": "Factorisation",
+      "iterations": 15,
+      "keygen_ms": 2266.8018,
+      "sign_ms": 7.2742,
+      "verify_ms": 0.7196,
+      "pubkey_bytes": 450,
+      "sig_bytes": 256
+    },
+    {
+      "algorithm": "RSA-3072",
+      "standard": "BROKEN-SHORS",
+      "type": "Factorisation",
+      "iterations": 15,
+      "keygen_ms": 12338.9906,
+      "sign_ms": 21.0935,
+      "verify_ms": 1.1682,
+      "pubkey_bytes": 624,
+      "sig_bytes": 384
+    },
+    {
+      "algorithm": "RSA-4096",
+      "standard": "BROKEN-SHORS",
+      "type": "Factorisation",
+      "iterations": 15,
+      "keygen_ms": 34705.5335,
+      "sign_ms": 47.086,
+      "verify_ms": 1.6772,
+      "pubkey_bytes": 799,
+      "sig_bytes": 512
+    }
+  ]
+}

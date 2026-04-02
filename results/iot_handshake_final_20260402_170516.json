@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-04-02 17:04:32",
+  "platform": "aarch64",
+  "handshakes": [
+    {
+      "algorithm": "Dilithium2",
+      "standard": "FIPS 204",
+      "quantum_safe": true,
+      "keygen_ms": 11.204,
+      "sign_ms": 38.052,
+      "verify_ms": 14.006,
+      "first_auth_ms": 63.262,
+      "repeat_auth_ms": 52.058,
+      "auths_per_sec": 19.2
+    },
+    {
+      "algorithm": "RSA-2048",
+      "standard": "BROKEN BY SHORS",
+      "quantum_safe": false,
+      "keygen_ms": 3753.259,
+      "sign_ms": 7.226,
+      "verify_ms": 0.714,
+      "first_auth_ms": 3761.199,
+      "repeat_auth_ms": 7.94,
+      "auths_per_sec": 125.9
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-128s",
+      "standard": "FIPS 205",
+      "quantum_safe": true,
+      "keygen_ms": 0.0056,
+      "sign_ms": 0.0076,
+      "verify_ms": 0.0017,
+      "first_auth_ms": 0.015,
+      "repeat_auth_ms": 0.009,
+      "auths_per_sec": 111111.1
+    }
+  ]
+}

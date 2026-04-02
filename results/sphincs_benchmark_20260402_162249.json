@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-04-02 16:22:49",
+  "platform": "aarch64",
+  "sphincs_results": [
+    {
+      "algorithm": "SPHINCS+-SHA2-128s",
+      "standard": "FIPS 205",
+      "type": "Hash-based (SHA2)",
+      "security_bits": 128,
+      "iterations": 20,
+      "keygen_ms_avg": 0.007,
+      "sign_ms_avg": 0.3403,
+      "verify_ms_avg": 0.0027,
+      "public_key_bytes": 32,
+      "signature_bytes": 3376
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-128f",
+      "standard": "FIPS 205",
+      "type": "Hash-based (SHA2)",
+      "security_bits": 128,
+      "iterations": 20,
+      "keygen_ms_avg": 0.0045,
+      "sign_ms_avg": 0.2126,
+      "verify_ms_avg": 0.0023,
+      "public_key_bytes": 32,
+      "signature_bytes": 1936
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-192s",
+      "standard": "FIPS 205",
+      "type": "Hash-based (SHA2)",
+      "security_bits": 192,
+      "iterations": 20,
+      "keygen_ms_avg": 0.0044,
+      "sign_ms_avg": 0.3927,
+      "verify_ms_avg": 0.0024,
+      "public_key_bytes": 48,
+      "signature_bytes": 5784
+    },
+    {
+      "algorithm": "SPHINCS+-SHA2-256s",
+      "standard": "FIPS 205",
+      "type": "Hash-based (SHA2)",
+      "security_bits": 256,
+      "iterations": 20,
+      "keygen_ms_avg": 0.0046,
+      "sign_ms_avg": 0.4462,
+      "verify_ms_avg": 0.0025,
+      "public_key_bytes": 64,
+      "signature_bytes": 8672
+    }
+  ]
+}

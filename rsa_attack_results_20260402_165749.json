@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-04-02 16:57:46",
+  "experiments": [
+    {
+      "bits": 32,
+      "factored": true,
+      "time_ms": 0.45
+    },
+    {
+      "bits": 48,
+      "factored": true,
+      "time_ms": 1.98
+    },
+    {
+      "bits": 64,
+      "factored": true,
+      "time_ms": 216.54
+    },
+    {
+      "bits": 96,
+      "factored": false,
+      "time_ms": 2292.89
+    }
+  ]
+}

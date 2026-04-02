@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-04-02 16:25:46",
+  "platform": "aarch64",
+  "disclaimer": "Theoretical attack costs from published cryptanalysis. NOT actual attacks.",
+  "attacks": [
+    {
+      "target": "RSA-512",
+      "attack_type": "Classical GNFS",
+      "classical_ops": "1.09e+20",
+      "time_classical": "~108985.81 seconds",
+      "status_classical": "BROKEN",
+      "shors_time_fault_tolerant": "~900.00 seconds",
+      "logical_qubits_required": 1000,
+      "physical_qubits_required": 1000000,
+      "status_quantum": "QUANTUM VULNERABLE"
+    },
+    {
+      "target": "RSA-1024",
+      "attack_type": "Classical GNFS",
+      "classical_ops": "1.21e+27",
+      "time_classical": "~38319 years",
+      "status_classical": "BROKEN",
+      "shors_time_fault_tolerant": "~5091.17 seconds",
+      "logical_qubits_required": 2000,
+      "physical_qubits_required": 2000000,
+      "status_quantum": "QUANTUM VULNERABLE"
+    },
+    {
+      "target": "RSA-2048",
+      "attack_type": "Classical GNFS",
+      "classical_ops": "2.29e+36",
+      "time_classical": "~7.26e+13 years (longer than age of universe)",
+      "status_classical": "SAFE (classical)",
+      "shors_time_fault_tolerant": "~28800.00 seconds",
+      "logical_qubits_required": 4000,
+      "physical_qubits_required": 4000000,
+      "status_quantum": "QUANTUM VULNERABLE"
+    },
+    {
+      "target": "RSA-3072",
+      "attack_type": "Classical GNFS",
+      "classical_ops": "1.22e+43",
+      "time_classical": "~3.85e+20 years (longer than age of universe)",
+      "status_classical": "SAFE (classical)",
+      "shors_time_fault_tolerant": "~79363.47 seconds",
+      "logical_qubits_required": 6000,
+      "physical_qubits_required": 6000000,
+      "status_quantum": "QUANTUM VULNERABLE"
+    },
+    {
+      "target": "RSA-4096",
+      "attack_type": "Classical GNFS",
+      "classical_ops": "3.52e+48",
+      "time_classical": "~1.12e+26 years (longer than age of universe)",
+      "status_classical": "SAFE (classical)",
+      "shors_time_fault_tolerant": "~162917.40 seconds",
+      "logical_qubits_required": 8000,
+      "physical_qubits_required": 8000000,
+      "status_quantum": "QUANTUM VULNERABLE"
+    },
+    {
+      "target": "Dilithium2",
+      "nist_level": 2,
+      "quantum_security_bits": 128,
+      "best_quantum_ops": "3.40e+38",
+      "time_quantum_attack": "~1.08e+22 years (longer than age of universe)",
+      "time_classical_attack": "~10^35 years (heat death of universe)",
+      "status": "QUANTUM SAFE"
+    },
+    {
+      "target": "Dilithium3",
+      "nist_level": 3,
+      "quantum_security_bits": 192,
+      "best_quantum_ops": "6.28e+57",
+      "time_quantum_attack": "~10^41 years (heat death of universe)",
+      "time_classical_attack": "~10^64 years (heat death of universe)",
+      "status": "QUANTUM SAFE"
+    },
+    {
+      "target": "Dilithium5",
+      "nist_level": 5,
+      "quantum_security_bits": 256,
+      "best_quantum_ops": "1.16e+77",
+      "time_quantum_attack": "~10^60 years (heat death of universe)",
+      "time_classical_attack": "~10^93 years (heat death of universe)",
+      "status": "QUANTUM SAFE"
+    },
+    {
+      "target": "AES-128",
+      "classical_security_bits": 128,
+      "quantum_security_bits": 64,
+      "time_classical_brute": "~1.08e+16 years (longer than age of universe)",
+      "time_grover": "~584.54 years",
+      "status": "WEAKENED BY GROVER'S"
+    },
+    {
+      "target": "AES-192",
+      "classical_security_bits": 192,
+      "quantum_security_bits": 96,
+      "time_classical_brute": "~10^35 years (heat death of universe)",
+      "time_grover": "~2.51e+12 years (longer than age of universe)",
+      "status": "WEAKENED BY GROVER'S"
+    },
+    {
+      "target": "AES-256",
+      "classical_security_bits": 256,
+      "quantum_security_bits": 128,
+      "time_classical_brute": "~10^54 years (heat death of universe)",
+      "time_grover": "~1.08e+22 years (longer than age of universe)",
+      "status": "QUANTUM SAFE"
+    }
+  ]
+}
