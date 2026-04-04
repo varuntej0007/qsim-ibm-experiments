@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-04-04 13:13:08",
+  "platform": "aarch64",
+  "hamiltonian": [
+    [
+      "II",
+      -1.0523732
+    ],
+    [
+      "IZ",
+      0.3979374
+    ],
+    [
+      "ZI",
+      -0.3979374
+    ],
+    [
+      "ZZ",
+      -0.0112801
+    ],
+    [
+      "XX",
+      0.1809312
+    ]
+  ],
+  "exact_energy_hartree": -1.857275,
+  "simulator": {
+    "vqe_energy": -1.832697,
+    "error_hartree": 0.024578,
+    "error_ev": 0.6688,
+    "chemical_accuracy": 

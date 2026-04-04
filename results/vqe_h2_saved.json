@@ -1,0 +1,57 @@
+{
+  "experiment": "VQE H2 Ground State Energy",
+  "platform": "Raspberry Pi 5 aarch64",
+  "exact_energy_hartree": -1.857275,
+  "simulator": {
+    "energy_hartree": -1.832697,
+    "error_hartree": 0.024578,
+    "error_ev": 0.6688,
+    "chemical_accuracy": false,
+    "time_s": 37.6,
+    "n_evaluations": 57,
+    "opt_params": [
+      -0.083,
+      1.3525,
+      -2.9939,
+      -1.0974
+    ]
+  },
+  "real_hardware": {
+    "backend": "ibm_kingston",
+    "energy_hartree": -1.788572,
+    "error_hartree": 0.068703,
+    "error_ev": 1.8695,
+    "pauli_terms": {
+      "II": {
+        "coeff": -1.0523732,
+        "exp_val": 1.0,
+        "contribution": -1.052373,
+        "job_id": "identity"
+      },
+      "IZ": {
+        "coeff": 0.3979374,
+        "exp_val": -0.9648,
+        "contribution": -0.383947,
+        "job_id": "d78c25jc6das739hmtvg"
+      },
+      "ZI": {
+        "coeff": -0.3979374,
+        "exp_val": 0.9414,
+        "contribution": -0.374621,
+        "job_id": "d78c279q1efs73d1iq90"
+      },
+      "ZZ": {
+        "coeff": -0.0112801,
+        "exp_val": -0.9492,
+        "contribution": 0.010707,
+        "job_id": "d78c29ak86tc739v3kpg"
+      },
+      "XX": {
+        "coeff": 0.1809312,
+        "exp_val": 0.0645,
+        "contribution": 0.011662,
+        "job_id": "d78c2b9q1efs73d1iqdg"
+      }
+    }
+  }
+}

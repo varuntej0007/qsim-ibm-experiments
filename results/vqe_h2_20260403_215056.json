@@ -1,0 +1,8 @@
+{
+  "timestamp": "20260403_215056",
+  "problem": "VQE H2 ground state energy",
+  "exact_energy_hartree": -1.857275,
+  "vqe_simulator": {
+    "energy_hartree": -1.849186,
+    "error_hartree": 0.008089,
+    "chemical_accuracy": 

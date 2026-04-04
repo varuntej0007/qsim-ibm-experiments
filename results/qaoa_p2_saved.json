@@ -1,0 +1,54 @@
+{
+  "experiment": "QAOA p=1 vs p=2 Max-Cut 4-node",
+  "platform": "Raspberry Pi 5 aarch64",
+  "graph": {
+    "nodes": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "classical_optimal": 4,
+  "simulator": {
+    "p1": {
+      "approx_ratio": 1.0,
+      "optimal_pct": 40.65,
+      "expected_cut": 3.1689,
+      "n_evals": 36
+    },
+    "p2": {
+      "approx_ratio": 1.0,
+      "optimal_pct": 44.9,
+      "expected_cut": 3.3604,
+      "n_evals": 51
+    }
+  },
+  "real_hardware": {
+    "backend": "ibm_kingston",
+    "job_id": "d78c0p8eecps73d70gjg",
+    "top_bitstring": "0101",
+    "top_cut": 4,
+    "approx_ratio": 1.0,
+    "optimal_pct": 38.77,
+    "transpiled_depth": 107,
+    "transpiled_gates": 161
+  }
+}

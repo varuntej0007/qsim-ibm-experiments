@@ -1,0 +1,55 @@
+{
+  "timestamp": "20260403_213751",
+  "problem": "Max-Cut",
+  "graph": {
+    "nodes": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "classical_optimal": {
+    "partition": "0101",
+    "cuts": 4,
+    "time_ms": 0.037
+  },
+  "qaoa": {
+    "layers_p": 1,
+    "best_gamma": 2.0944,
+    "best_beta": 0.8727,
+    "expected_cut": 3.1523,
+    "top_result": "1010",
+    "top_cut": 4,
+    "approximation_ratio": 1.0,
+    "measurement_counts": {
+      "1010": 240,
+      "0101": 213,
+      "0010": 56,
+      "1101": 53,
+      "1000": 53,
+      "1011": 50,
+      "0001": 47,
+      "0100": 46,
+      "1110": 45,
+      "1111": 44
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "experiment": "Zero-Noise Extrapolation (ZNE)",
+  "platform": "Raspberry Pi 5 aarch64",
+  "bell_state": {
+    "noise_factors": [
+      1,
+      2,
+      3
+    ],
+    "raw_fidelities": [
+      0.9895,
+      0.9795,
+      0.969
+    ],
+    "ideal_fidelity": 1.0,
+    "zne_linear": 0.9998,
+    "zne_richardson_2pt": 0.9995,
+    "error_without_zne": 0.0105,
+    "error_with_zne": 0.0002,
+    "improvement_factor": 64.5,
+    "real_hw_job_1x": "d78c2ppq1efs73d1iqtg",
+    "real_hw_fidelity_1x": 0.9883
+  },
+  "qaoa_maxcut": {
+    "noise_factors": [
+      1,
+      2,
+      3
+    ],
+    "raw_cuts": [
+      3.0181,
+      2.9771,
+      2.8809
+    ],
+    "ideal_cut": 3.1641,
+    "zne_linear": 3.0959,
+    "zne_richardson": 3.0591,
+    "classical_optimal": 4.0,
+    "error_without_zne": 0.146,
+    "error_with_zne": 0.0682
+  }
+}

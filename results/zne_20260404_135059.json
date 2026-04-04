@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-04-04 13:50:48",
+  "platform": "aarch64",
+  "method": "Zero Noise Extrapolation (ZNE)",
+  "experiments": [
+    {
+      "circuit": "Bell State",
+      "method": "ZNE Linear Extrapolation",
+      "noise_factors": [
+        1,
+        2,
+        3
+      ],
+      "raw_fidelities": [
+        0.988,
+        0.98,
+        0.9697
+      ],
+      "ideal_fidelity": 1.0,
+      "zne_linear": 0.9976,
+      "zne_richardson_2pt": 0.9961,
+      "error_without_zne": 0.012,
+      "error_with_zne": 0.0024,
+      "improvement_factor": 4.9
+    },
+    {
+      "circuit": "QAOA Max-Cut p=1",
+      "noise_factors": [
+        1,
+        2,
+        3
+      ],
+      "raw_cuts": [
+        3.0264,
+        2.9785,
+        2.9175
+      ],
+      "ideal_cut": 3.124,
+      "zne_linear": 3.083,
+      "zne_richardson": 3.0742,
+      "classical_optimal": 4.0
+    }
+  ]
+}

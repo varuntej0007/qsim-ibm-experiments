@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-04-04 13:09:54",
+  "platform": "aarch64",
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "classical_optimal": 4,
+  "layers": {
+    "p1": {
+      "best_expected_cut": 3.1689,
+      "top_bitstring": "1010",
+      "top_cut": 4,
+      "approximation_ratio": 1.0,
+      "optimal_pct": 40.65,
+      "opt_time_s": 7.15,
+      "n_evaluations": 

@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-04-04 13:53:50",
+  "platform": "aarch64",
+  "method": "Zero Noise Extrapolation (ZNE)",
+  "experiments": [
+    {
+      "circuit": "Bell State",
+      "method": "ZNE Linear Extrapolation",
+      "noise_factors": [
+        1,
+        2,
+        3
+      ],
+      "raw_fidelities": [
+        0.989,
+        0.9814,
+        0.9675
+      ],
+      "ideal_fidelity": 1.0,
+      "zne_linear": 1.0008,
+      "zne_richardson_2pt": 0.9966,
+      "error_without_zne": 0.011,
+      "error_with_zne": 0.0008,
+      "improvement_factor": 13.5
+    },
+    {
+      "circuit": "QAOA Max-Cut p=1",
+      "noise_factors": [
+        1,
+        2,
+        3
+      ],
+      "raw_cuts": [
+        3.084,
+        2.9663,
+        2.9399
+      ],
+      "ideal_cut": 3.1455,
+      "zne_linear": 3.1408,
+      "zne_richardson": 3.2017,
+      "classical_optimal": 4.0
+    }
+  ],
+  "real_hardware_zne": {
+    "backend": "ibm_fez",
+    "bell_1x": {
+      "job_id": "d78cl99q1efs73d1jdn0",
+      "fidelity": 0.9453,
+      "counts": {
+        "00": 479,
+        "11": 489,
+        "01": 20,
+        "10": 36
+      }
+    },
+    "bell_3x": {
+      "job_id": "d78clc1q1efs73d1jdr0",
+      "fidelity": 0.9316,
+      "counts": {
+        "11": 471,
+        "00": 483,
+        "10": 39,
+        "01": 31
+      }
+    },
+    "zne_extrapolated": 0.959,
+    "ideal_target": 1.0
+  }
+}
