@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-04-15 12:51:02",
+  "platform": "Raspberry Pi 5",
+  "temp": 45.75,
+  "load": 1.73,
+  "principle": 9,
+  "name": "Quantum Parallelism",
+  "data": {
+    "scaling": [
+      {
+        "n": 2,
+        "speedup": 2.0,
+        "prob": 0.6475,
+        "ai": "CLASSICAL"
+      },
+      {
+        "n": 3,
+        "speedup": 2.0,
+        "prob": 0.541,
+        "ai": "CLASSICAL"
+      },
+      {
+        "n": 4,
+        "speedup": 2.7,
+        "prob": 0.4941,
+        "ai": "QUANTUM"
+      },
+      {
+        "n": 5,
+        "speedup": 4.0,
+        "prob": 0.5371,
+        "ai": "QUANTUM"
+      },
+      {
+        "n": 6,
+        "speedup": 5.3,
+        "prob": 0.5146,
+        "ai": "QUANTUM"
+      }
+    ]
+  }
+}

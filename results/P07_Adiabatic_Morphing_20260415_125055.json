@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-04-15 12:50:55",
+  "platform": "Raspberry Pi 5",
+  "temp": 42.45,
+  "load": 1.77,
+  "principle": 7,
+  "name": "Adiabatic Morphing",
+  "data": {
+    "steps": [
+      {
+        "step": 0,
+        "s": 0.0,
+        "gs_prob": 0.126,
+        "gs_energy": -3
+      },
+      {
+        "step": 1,
+        "s": 0.06666666666666667,
+        "gs_prob": 0.1167,
+        "gs_energy": -3
+      },
+      {
+        "step": 2,
+        "s": 0.13333333333333333,
+        "gs_prob": 0.1245,
+        "gs_energy": -3
+      },
+      {
+        "step": 3,
+        "s": 0.2,
+        "gs_prob": 0.1167,
+        "gs_energy": -3
+      },
+      {
+        "step": 4,
+        "s": 0.26666666666666666,
+        "gs_prob": 0.1255,
+        "gs_energy": -3
+      },
+      {
+        "step": 5,
+        "s": 0.3333333333333333,
+        "gs_prob": 0.1211,
+        "gs_energy": -3
+      },
+      {
+        "step": 6,
+        "s": 0.4,
+        "gs_prob": 0.1162,
+        "gs_energy": -3
+      },
+      {
+        "step": 7,
+        "s": 0.4666666666666667,
+        "gs_prob": 0.1294,
+        "gs_energy": -3
+      },
+      {
+        "step": 8,
+        "s": 0.5333333333333333,
+        "gs_prob": 0.1406,
+        "gs_energy": -3
+      },
+      {
+        "step": 9,
+        "s": 0.6,
+        "gs_prob": 0.1411,
+        "gs_energy": -3
+      },
+      {
+        "step": 10,
+        "s": 0.6666666666666666,
+        "gs_prob": 0.1274,
+        "gs_energy": -3
+      },
+      {
+        "step": 11,
+        "s": 0.7333333333333333,
+        "gs_prob": 0.1274,
+        "gs_energy": -3
+      },
+      {
+        "step": 12,
+        "s": 0.8,
+        "gs_prob": 0.1294,
+        "gs_energy": -3
+      },
+      {
+        "step": 13,
+        "s": 0.8666666666666667,
+        "gs_prob": 0.123,
+        "gs_energy": -3
+      },
+      {
+        "step": 14,
+        "s": 0.9333333333333333,
+        "gs_prob": 0.1333,
+        "gs_energy": -3
+      },
+      {
+        "step": 15,
+        "s": 1.0,
+        "gs_prob": 0.1265,
+        "gs_energy": -3
+      }
+    ],
+    "adiabatic": {
+      "satisfied": true,
+      "lhs": 0.066667,
+      "rhs": 0.25,
+      "margin": 3.75
+    }
+  }
+}

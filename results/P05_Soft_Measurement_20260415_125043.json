@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-04-15 12:50:43",
+  "platform": "Raspberry Pi 5",
+  "temp": 42.45,
+  "load": 1.9,
+  "principle": 5,
+  "name": "Soft Measurement",
+  "data": {
+    "sweep": [
+      {
+        "coupling": 0.0,
+        "coherence": 0.9846,
+        "info": 1.9996
+      },
+      {
+        "coupling": 0.1309,
+        "coherence": 0.9871,
+        "info": 1.9999
+      },
+      {
+        "coupling": 0.2618,
+        "coherence": 0.9827,
+        "info": 1.9994
+      },
+      {
+        "coupling": 0.3927,
+        "coherence": 0.9885,
+        "info": 1.9998
+      },
+      {
+        "coupling": 0.5236,
+        "coherence": 0.9829,
+        "info": 1.9998
+      },
+      {
+        "coupling": 0.6545,
+        "coherence": 0.9839,
+        "info": 1.9999
+      },
+      {
+        "coupling": 0.7854,
+        "coherence": 0.9875,
+        "info": 1.9999
+      },
+      {
+        "coupling": 0.9163,
+        "coherence": 0.9866,
+        "info": 1.9997
+      },
+      {
+        "coupling": 1.0472,
+        "coherence": 0.9834,
+        "info": 2.0
+      },
+      {
+        "coupling": 1.1781,
+        "coherence": 0.9839,
+        "info": 1.9995
+      },
+      {
+        "coupling": 1.309,
+        "coherence": 0.9946,
+        "info": 2.0
+      },
+      {
+        "coupling": 1.4399,
+        "coherence": 0.9946,
+        "info": 2.0
+      },
+      {
+        "coupling": 1.5708,
+        "coherence": 0.9905,
+        "info": 2.0
+      }
+    ]
+  }
+}

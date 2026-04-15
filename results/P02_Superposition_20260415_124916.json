@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-04-15 12:49:16",
+  "platform": "Raspberry Pi 5",
+  "temp": 43.0,
+  "load": 1.62,
+  "principle": 2,
+  "name": "Superposition",
+  "data": {
+    "ideal": [
+      {
+        "n": 1,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0
+      },
+      {
+        "n": 2,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0
+      },
+      {
+        "n": 3,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0
+      },
+      {
+        "n": 4,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0
+      },
+      {
+        "n": 5,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0
+      },
+      {
+        "n": 6,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0
+      }
+    ],
+    "thermal": [
+      {
+        "temp": 25,
+        "noise": 0.001,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0,
+        "ai_correction": 0.12
+      },
+      {
+        "temp": 35,
+        "noise": 0.001,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0,
+        "ai_correction": 0.04
+      },
+      {
+        "temp": 45,
+        "noise": 0.001,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0,
+        "ai_correction": -0.04
+      },
+      {
+        "temp": 55,
+        "noise": 0.0035,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0,
+        "ai_correction": -0.12
+      },
+      {
+        "temp": 65,
+        "noise": 0.0085,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0,
+        "ai_correction": -0.2
+      },
+      {
+        "temp": 75,
+        "noise": 0.0135,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0,
+        "ai_correction": -0.28
+      },
+      {
+        "temp": 85,
+        "noise": 0.0185,
+        "chi2": NaN,
+        "pval": NaN,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 0.0,
+        "ai_correction": -0.36
+      }
+    ],
+    "hw": {
+      "2q": {
+        "job_id": "d7fjnkm2cugc739qlvsg",
+        "chi2": 3072.0,
+        "pval": 0.0,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 400.0
+      },
+      "3q": {
+        "job_id": "d7fjnn62cugc739qlvv0",
+        "chi2": 7168.0,
+        "pval": 0.0,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 800.0
+      },
+      "4q": {
+        "job_id": "d7fjnp56agrc738ipj1g",
+        "chi2": 15360.0,
+        "pval": 0.0,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 1600.0
+      },
+      "5q": {
+        "job_id": "d7fjnqt6agrc738ipj4g",
+        "chi2": 31744.0,
+        "pval": 0.0,
+        "uniform": false,
+        "entropy_pct": 0.0,
+        "deviation_pct": 3200.0
+      }
+    }
+  }
+}

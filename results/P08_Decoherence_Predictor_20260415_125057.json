@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-04-15 12:50:57",
+  "platform": "Raspberry Pi 5",
+  "temp": 44.65,
+  "load": 1.7,
+  "principle": 8,
+  "name": "Decoherence Predictor",
+  "data": {
+    "ridge_r2": 0.9863,
+    "gbm_r2": 0.998,
+    "predictions": [
+      {
+        "name": "BV 4Q ibm_kingston",
+        "ridge": 7.74,
+        "gbm": 7.31,
+        "risk": "MED"
+      },
+      {
+        "name": "QAOA 6-node ibm_fez",
+        "ridge": 0,
+        "gbm": 8.5,
+        "risk": "MED"
+      },
+      {
+        "name": "GHZ 5Q ibm_fez",
+        "ridge": 0,
+        "gbm": 7.07,
+        "risk": "MED"
+      },
+      {
+        "name": "Grover 4Q ibm_fez (actual 52%)",
+        "ridge": 52.0,
+        "gbm": 51.99,
+        "risk": "EXTREME"
+      },
+      {
+        "name": "Future Heron r3 QAOA",
+        "ridge": 0,
+        "gbm": 8.5,
+        "risk": "MED"
+      },
+      {
+        "name": "Deep circuit stress test",
+        "ridge": 0,
+        "gbm": 51.99,
+        "risk": "EXTREME"
+      }
+    ]
+  }
+}

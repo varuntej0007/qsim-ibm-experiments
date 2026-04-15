@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-04-15 12:50:32",
+  "platform": "Raspberry Pi 5",
+  "temp": 43.0,
+  "load": 1.71,
+  "principle": 3,
+  "name": "Entanglement Network",
+  "data": {
+    "topology": [
+      [
+        1,
+        3,
+        1.0
+      ],
+      [
+        2,
+        4,
+        0.998
+      ]
+    ],
+    "hw": {
+      "(0,1)": {
+        "fidelity": 0.9775,
+        "job_id": "d7fjo2m2cugc739qm0d0"
+      },
+      "(1,2)": {
+        "fidelity": 0.9775,
+        "job_id": "d7fjo4q1u7fs739m3l4g"
+      },
+      "(2,3)": {
+        "fidelity": 0.9775,
+        "job_id": "d7fjo762cugc739qm0i0"
+      },
+      "(0,3)": {
+        "fidelity": 0.9863,
+        "job_id": "d7fjo95d4lnc73ffeuc0"
+      },
+      "(1,3)": {
+        "fidelity": 0.9883,
+        "job_id": "d7fjoe21u7fs739m3ld0"
+      }
+    }
+  }
+}

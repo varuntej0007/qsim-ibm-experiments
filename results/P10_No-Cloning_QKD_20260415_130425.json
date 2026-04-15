@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-15 13:04:25",
+  "platform": "Raspberry Pi 5",
+  "temp": 47.4,
+  "load": 3.11,
+  "principle": 10,
+  "name": "No-Cloning QKD",
+  "data": {
+    "scenarios": {
+      "Clean (no Eve)": {
+        "avg_qber": 0.0,
+        "detected": false
+      },
+      "Eve 30%": {
+        "avg_qber": 0.0658,
+        "detected": false
+      },
+      "Eve 60%": {
+        "avg_qber": 0.1248,
+        "detected": true
+      },
+      "Eve 100%": {
+        "avg_qber": 0.2396,
+        "detected": true
+      }
+    }
+  }
+}

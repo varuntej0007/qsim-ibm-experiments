@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-04-15 12:48:13",
+  "platform": "Raspberry Pi 5",
+  "temp": 42.45,
+  "load": 1.99,
+  "principle": 1,
+  "name": "Adaptive Superposition",
+  "data": {
+    "env": {
+      "temp": 41.9,
+      "load": 1.73,
+      "noise": 0.001,
+      "t2": 0.9987
+    },
+    "temp_sweep": [
+      {
+        "temp": 30,
+        "noise": 0.001,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      },
+      {
+        "temp": 40,
+        "noise": 0.001,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      },
+      {
+        "temp": 45,
+        "noise": 0.001,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      },
+      {
+        "temp": 50,
+        "noise": 0.001,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      },
+      {
+        "temp": 55,
+        "noise": 0.0035,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      },
+      {
+        "temp": 65,
+        "noise": 0.0085,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      },
+      {
+        "temp": 75,
+        "noise": 0.0135,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      },
+      {
+        "temp": 85,
+        "noise": 0.0185,
+        "u_perfect": 0.5,
+        "u_adaptive": 0.5,
+        "gain": 0.0
+      }
+    ],
+    "opt_evals": 9,
+    "real_hw": {
+      "backend": "ibm_fez",
+      "job_perfect": "d7fjn962cugc739qlvg0",
+      "job_adaptive": "d7fjnbdd4lnc73ffeta0",
+      "u_perfect": 0.0625,
+      "u_adaptive": 0.0625
+    }
+  }
+}
