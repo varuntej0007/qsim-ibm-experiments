@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-05-26 21:08:45",
+  "backend": "ibm_fez",
+  "edges_6": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "max_cut": 8,
+  "4node_params": {
+    "gamma": 1.0658,
+    "beta": 0.6013
+  },
+  "results": {
+    "transferred": {
+      "prob": 0.0654,
+      "job_id": "d8arq3aa5s8s73cl156g"
+    },
+    "fresh_6node": {
+      "gamma": 0.842,
+      "beta": 0.6437,
+      "prob": 0.1592,
+      "job_id": "d8arsvgb1oec7382v0c0"
+    }
+  },
+  "transfer_quality_pct": 41.1,
+  "gamma_shift": -0.2238,
+  "beta_shift": 0.0424,
+  "finding": "POOR SCALING: 41.1%. 4-node params fail on 6-node. Graph size changes optimal landscape.",
+  "cobyla_log": [
+    {
+      "job_id": "d8arqu2a5s8s73cl168g",
+      "gamma": 1.0658,
+      "beta": 0.6013,
+      "prob": 0.082
+    },
+    {
+      "job_id": "d8ars8qa5s8s73cl1840",
+      "gamma": 1.2658,
+      "beta": 0.6013,
+      "prob": 0.0156
+    },
+    {
+      "job_id": "d8arsaus3bbc73fj8u30",
+      "gamma": 1.0658,
+      "beta": 0.8013,
+      "prob": 0.0957
+    },
+    {
+      "job_id": "d8arscqa5s8s73cl18a0",
+      "gamma": 0.8699,
+      "beta": 0.8416,
+      "prob": 0.1738
+    },
+    {
+      "job_id": "d8arseivnmpc73br3db0",
+      "gamma": 0.4761,
+      "beta": 0.9116,
+      "prob": 0.1719
+    },
+    {
+      "job_id": "d8arsgivnmpc73br3dh0",
+      "gamma": 0.907,
+      "beta": 1.0382,
+      "prob": 0.0684
+    },
+    {
+      "job_id": "d8arsj2a5s8s73cl18n0",
+      "gamma": 0.8533,
+      "beta": 0.743,
+      "prob": 0.1816
+    },
+    {
+      "job_id": "d8arskus3bbc73fj8ukg",
+      "gamma": 0.842,
+      "beta": 0.6437,
+      "prob": 0.2109
+    },
+    {
+      "job_id": "d8arsn2a5s8s73cl18ug",
+      "gamma": 0.775,
+      "beta": 0.4552,
+      "prob": 0.1074
+    },
+    {
+      "job_id": "d8arsp6s3bbc73fj8ur0",
+      "gamma": 0.8917,
+      "beta": 0.638,
+      "prob": 0.1641
+    },
+    {
+      "job_id": "d8arsrob1oec7382v07g",
+      "gamma": 0.7438,
+      "beta": 0.6248,
+      "prob": 0.1816
+    },
+    {
+      "job_id": "d8arstqvnmpc73br3e1g",
+      "gamma": 0.8787,
+      "beta": 0.6097,
+      "prob": 0.1992
+    }
+  ]
+}

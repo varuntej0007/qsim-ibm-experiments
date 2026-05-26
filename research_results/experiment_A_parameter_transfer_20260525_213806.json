@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-05-25 21:38:06",
+  "data": {
+    "simulator": {
+      "transferred_prob": 0.4731,
+      "fresh_prob": 0.4365
+    },
+    "hardware": {
+      "transferred": {
+        "job_id": "d8a76nqs46sc73fbfsh0",
+        "gamma": 1.0658,
+        "beta": 0.6013,
+        "source_backend": "ibm_kingston",
+        "target_backend": "ibm_fez",
+        "optimal_prob": 0.3721,
+        "counts": {
+          "1011": 48,
+          "0101": 181,
+          "0001": 54,
+          "1000": 95,
+          "1001": 28,
+          "1010": 200,
+          "1111": 31,
+          "1101": 59,
+          "1110": 50,
+          "0110": 41,
+          "0010": 55,
+          "0100": 46,
+          "0011": 31,
+          "0111": 53,
+          "0000": 32,
+          "1100": 20
+        }
+      },
+      "fresh_optimised": {
+        "job_id": "d8a77o2s46sc73fbftkg",
+        "gamma": 1.0598,
+        "beta": 0.7272,
+        "backend": "ibm_fez",
+        "optimal_prob": 0.3896,
+        "cobyla_evals": [
+          {
+            "job_id": "d8a76q1789is73945fu0",
+            "gamma": 1.0658,
+            "beta": 0.6013,
+            "prob": 0.4023
+          },
+          {
+            "job_id": "d8a76sas46sc73fbfsn0",
+            "gamma": 1.2658,
+            "beta": 0.6013,
+            "prob": 0.3691
+          },
+          {
+            "job_id": "d8a76u2s46sc73fbfsog",
+            "gamma": 1.0658,
+            "beta": 0.8013,
+            "prob": 0.4082
+          },
+          {
+            "job_id": "d8a7705g7okc73epgs00",
+            "gamma": 0.8688,
+            "beta": 0.8361,
+            "prob": 0.168
+          },
+          {
+            "job_id": "d8a771op0eas73dpg5jg",
+            "gamma": 1.1658,
+            "beta": 0.8037,
+            "prob": 0.3789
+          },
+          {
+            "job_id": "d8a7749789is73945g9g",
+            "gamma": 1.0652,
+            "beta": 0.8263,
+            "prob": 0.377
+          },
+          {
+            "job_id": "d8a7760p0eas73dpg5p0",
+            "gamma": 1.0556,
+            "beta": 0.7524,
+            "prob": 0.4316
+          },
+          {
+            "job_id": "d8a778dg7okc73epgsa0",
+            "gamma": 1.0276,
+            "beta": 0.7109,
+            "prob": 0.3516
+          },
+          {
+            "job_id": "d8a77a8p0eas73dpg5t0",
+            "gamma": 1.0638,
+            "beta": 0.7468,
+            "prob": 0.4395
+          },
+          {
+            "job_id": "d8a77cis46sc73fbft7g",
+            "gamma": 1.0812,
+            "beta": 0.7568,
+            "prob": 0.4121
+          },
+          {
+            "job_id": "d8a77eop0eas73dpg61g",
+            "gamma": 1.0598,
+            "beta": 0.7272,
+            "prob": 0.4453
+          },
+          {
+            "job_id": "d8a77gp789is73945gp0",
+            "gamma": 1.0457,
+            "beta": 0.713,
+            "prob": 0.3809
+          },
+          {
+            "job_id": "d8a77iis46sc73fbftdg",
+            "gamma": 1.0698,
+            "beta": 0.7276,
+            "prob": 0.4023
+          },
+          {
+            "job_id": "d8a77k8p0eas73dpg68g",
+            "gamma": 1.0599,
+            "beta": 0.7247,
+            "prob": 0.4395
+          },
+          {
+            "job_id": "d8a77mas46sc73fbfti0",
+            "gamma": 1.0553,
+            "beta": 0.7294,
+            "prob": 0.3926
+          }
+        ]
+      },
+      "analysis": {
+        "kingston_optimal": 0.4502,
+        "fez_transferred": 0.3721,
+        "fez_fresh": 0.3896,
+        "transfer_quality_pct": 95.5,
+        "finding": "STRONG TRANSFER: Heron r2 parameters are backend-transferable. Optimise once, use everywhere on Heron r2.",
+        "sim_transfer_quality_pct": 108.4
+      }
+    },
+    "known_kingston": {
+      "gamma": 1.0658,
+      "beta": 0.6013,
+      "prob": 0.4502,
+      "job": "d7gvoh7b..."
+    }
+  }
+}

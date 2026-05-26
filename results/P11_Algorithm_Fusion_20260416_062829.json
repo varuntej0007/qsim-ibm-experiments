@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-16 06:28:29",
+  "platform": "Raspberry Pi 5",
+  "temp": 49.6,
+  "load": 0.72,
+  "principle": 11,
+  "name": "Algorithm Fusion",
+  "data": {
+    "gamma": 1.2449,
+    "beta": 0.7831,
+    "opt_sim_pure": 0.3945,
+    "opt_sim_fusion": 0.3931,
+    "real_hw": {
+      "backend": "ibm_fez",
+      "job_pure": "d7g389182hoc738mhlqg",
+      "job_fusion": "d7g38bh82hoc738mhlu0",
+      "opt_pure_hw": 0.3535,
+      "opt_fusion_hw": 0.3154,
+      "pure_depth": 55,
+      "fusion_depth": 191
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "timestamp": "2026-05-26 14:53:58",
+  "backend": "ibm_fez",
+  "warm_start": {
+    "final_prob": 0.3184,
+    "final_job": "d8amd88p0eas73dq28dg",
+    "params": [
+      1.0687,
+      0.6034,
+      1.3211,
+      0.6679
+    ],
+    "cobyla_log": [
+      {
+        "job_id": "d8ambaqs46sc73fc1ua0",
+        "params": [
+          1.0658,
+          0.6013,
+          1.1724,
+          0.6614
+        ],
+        "prob": 0.3105
+      },
+      {
+        "job_id": "d8ambcop0eas73dq2670",
+        "params": [
+          1.2158,
+          0.6013,
+          1.1724,
+          0.6614
+        ],
+        "prob": 0.2363
+      },
+      {
+        "job_id": "d8ambeis46sc73fc1ufg",
+        "params": [
+          1.0658,
+          0.7513,
+          1.1724,
+          0.6614
+        ],
+        "prob": 0.2559
+      },
+      {
+        "job_id": "d8ambgh789is7394n750",
+        "params": [
+          1.0658,
+          0.6013,
+          1.3224,
+          0.6614
+        ],
+        "prob": 0.3438
+      },
+      {
+        "job_id": "d8ambj0p0eas73dq26dg",
+        "params": [
+          1.0658,
+          0.6013,
+          1.3224,
+          0.8114
+        ],
+        "prob": 0.1836
+      },
+      {
+        "job_id": "d8ambkp789is7394n790",
+        "params": [
+          1.0065,
+          0.5576,
+          1.3489,
+          0.5335
+        ],
+        "prob": 0.3398
+      },
+      {
+        "job_id": "d8ambmp789is7394n7bg",
+        "params": [
+          1.0184,
+          0.5663,
+          1.3436,
+          0.7027
+        ],
+        "prob": 0.2031
+      },
+      {
+        "job_id": "d8ambogp0eas73dq26kg",
+        "params": [
+          1.0769,
+          0.5862,
+          1.3224,
+          0.6614
+        ],
+        "prob": 0.3164
+      },
+      {
+        "job_id": "d8ambqh789is7394n7g0",
+        "params": [
+          1.0745,
+          0.6347,
+          1.3257,
+          0.6471
+        ],
+        "prob": 0.3438
+      },
+      {
+        "job_id": "d8ambstg7okc73eq30cg",
+        "params": [
+          1.0657,
+          0.6013,
+          1.3297,
+          0.663
+        ],
+        "prob": 0.3008
+      },
+      {
+        "job_id": "d8ambugp0eas73dq26sg",
+        "params": [
+          1.062,
+          0.603,
+          1.3081,
+          0.6597
+        ],
+        "prob": 0.332
+      },
+      {
+        "job_id": "d8amc09789is7394n7s0",
+        "params": [
+          1.0687,
+          0.6034,
+          1.3211,
+          0.6679
+        ],
+        "prob": 0.3535
+      }
+    ]
+  },
+  "cold_start": {
+    "final_prob": 0.3262,
+    "final_job": "d8amda0p0eas73dq28g0",
+    "params": [
+      0.5156,
+      1.2341,
+      2.1,
+      0.3
+    ],
+    "cobyla_log": [
+      {
+        "job_id": "d8amc2qs46sc73fc1vdg",
+        "params": [
+          0.5,
+          1.2,
+          1.8,
+          0.3
+        ],
+        "prob": 0.2656
+      },
+      {
+        "job_id": "d8amchtg7okc73eq3150",
+        "params": [
+          0.8,
+          1.2,
+          1.8,
+          0.3
+        ],
+        "prob": 0.1738
+      },
+      {
+        "job_id": "d8amckgp0eas73dq27lg",
+        "params": [
+          0.5,
+          1.5,
+          1.8,
+          0.3
+        ],
+        "prob": 0.1934
+      },
+      {
+        "job_id": "d8amcmlg7okc73eq31ag",
+        "params": [
+          0.5,
+          1.2,
+          2.1,
+          0.3
+        ],
+        "prob": 0.334
+      },
+      {
+        "job_id": "d8amcodg7okc73eq31dg",
+        "params": [
+          0.5,
+          1.2,
+          2.1,
+          0.6
+        ],
+        "prob": 0.291
+      },
+      {
+        "job_id": "d8amcq0p0eas73dq27rg",
+        "params": [
+          0.3061,
+          1.0473,
+          2.2444,
+          0.2092
+        ],
+        "prob": 0.3145
+      },
+      {
+        "job_id": "d8amcsas46sc73fc208g",
+        "params": [
+          0.6237,
+          1.1435,
+          2.1535,
+          0.2664
+        ],
+        "prob": 0.168
+      },
+      {
+        "job_id": "d8amcu5g7okc73eq31kg",
+        "params": [
+          0.5156,
+          1.2341,
+          2.1,
+          0.3
+        ],
+        "prob": 0.3906
+      },
+      {
+        "job_id": "d8amd00p0eas73dq283g",
+        "params": [
+          0.4937,
+          1.3052,
+          2.1084,
+          0.2947
+        ],
+        "prob": 0.3789
+      },
+      {
+        "job_id": "d8amd20p0eas73dq286g",
+        "params": [
+          0.5179,
+          1.2331,
+          2.1148,
+          0.3
+        ],
+        "prob": 0.3359
+      },
+      {
+        "job_id": "d8amd4is46sc73fc20j0",
+        "params": [
+          0.5279,
+          1.2398,
+          2.0733,
+          0.299
+        ],
+        "prob": 0.3535
+      },
+      {
+        "job_id": "d8amd6h789is7394n95g",
+        "params": [
+          0.5172,
+          1.2334,
+          2.1011,
+          0.2851
+        ],
+        "prob": 0.3184
+      }
+    ]
+  },
+  "finding": "TIE (diff=-0.0078). Warm start gives no advantage. QAOA landscape is flat at p=2."
+}

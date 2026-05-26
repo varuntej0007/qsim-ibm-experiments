@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-04-16 06:15:18",
+  "platform": "Raspberry Pi 5",
+  "temp": 49.6,
+  "load": 1.58,
+  "principle": 2,
+  "name": "Superposition",
+  "data": {
+    "ideal": [
+      {
+        "n": 1,
+        "chi2": 1.0,
+        "pval": 0.3173,
+        "uniform": true,
+        "entropy_pct": 99.98,
+        "deviation_pct": 3.12
+      },
+      {
+        "n": 2,
+        "chi2": 0.87,
+        "pval": 0.8319,
+        "uniform": true,
+        "entropy_pct": 99.99,
+        "deviation_pct": 4.0
+      },
+      {
+        "n": 3,
+        "chi2": 8.75,
+        "pval": 0.2708,
+        "uniform": true,
+        "entropy_pct": 99.95,
+        "deviation_pct": 14.65
+      },
+      {
+        "n": 4,
+        "chi2": 22.28,
+        "pval": 0.1006,
+        "uniform": true,
+        "entropy_pct": 99.9,
+        "deviation_pct": 25.39
+      },
+      {
+        "n": 5,
+        "chi2": 23.2,
+        "pval": 0.8417,
+        "uniform": true,
+        "entropy_pct": 99.92,
+        "deviation_pct": 33.59
+      },
+      {
+        "n": 6,
+        "chi2": 55.44,
+        "pval": 0.7398,
+        "uniform": true,
+        "entropy_pct": 99.84,
+        "deviation_pct": 51.56
+      }
+    ],
+    "thermal": [
+      {
+        "temp": 25,
+        "noise": 0.001,
+        "chi2": 10.52,
+        "pval": 0.7856,
+        "uniform": true,
+        "entropy_pct": 99.95,
+        "deviation_pct": 16.8,
+        "ai_correction": 0.12
+      },
+      {
+        "temp": 35,
+        "noise": 0.001,
+        "chi2": 11.24,
+        "pval": 0.7352,
+        "uniform": true,
+        "entropy_pct": 99.95,
+        "deviation_pct": 17.97,
+        "ai_correction": 0.04
+      },
+      {
+        "temp": 45,
+        "noise": 0.001,
+        "chi2": 9.2,
+        "pval": 0.8667,
+        "uniform": true,
+        "entropy_pct": 99.96,
+        "deviation_pct": 16.8,
+        "ai_correction": -0.04
+      },
+      {
+        "temp": 55,
+        "noise": 0.0035,
+        "chi2": 17.74,
+        "pval": 0.2765,
+        "uniform": true,
+        "entropy_pct": 99.92,
+        "deviation_pct": 25.39,
+        "ai_correction": -0.12
+      },
+      {
+        "temp": 65,
+        "noise": 0.0085,
+        "chi2": 22.71,
+        "pval": 0.0905,
+        "uniform": true,
+        "entropy_pct": 99.9,
+        "deviation_pct": 30.86,
+        "ai_correction": -0.2
+      },
+      {
+        "temp": 75,
+        "noise": 0.0135,
+        "chi2": 11.72,
+        "pval": 0.7002,
+        "uniform": true,
+        "entropy_pct": 99.95,
+        "deviation_pct": 17.19,
+        "ai_correction": -0.28
+      },
+      {
+        "temp": 85,
+        "noise": 0.0185,
+        "chi2": 28.84,
+        "pval": 0.0168,
+        "uniform": false,
+        "entropy_pct": 99.87,
+        "deviation_pct": 32.42,
+        "ai_correction": -0.36
+      }
+    ],
+    "entanglement": [
+      {
+        "n": 2,
+        "mode": "Separable",
+        "chi2": 3.26,
+        "pval": 0.3533,
+        "uniform": true,
+        "entropy_pct": 99.97,
+        "deviation_pct": 7.52
+      },
+      {
+        "n": 2,
+        "mode": "Entangled",
+        "chi2": 2.34,
+        "pval": 0.5053,
+        "uniform": true,
+        "entropy_pct": 99.98,
+        "deviation_pct": 5.66
+      },
+      {
+        "n": 3,
+        "mode": "Separable",
+        "chi2": 2.43,
+        "pval": 0.932,
+        "uniform": true,
+        "entropy_pct": 99.99,
+        "deviation_pct": 7.81
+      },
+      {
+        "n": 3,
+        "mode": "Entangled",
+        "chi2": 5.05,
+        "pval": 0.6533,
+        "uniform": true,
+        "entropy_pct": 99.97,
+        "deviation_pct": 9.96
+      },
+      {
+        "n": 4,
+        "mode": "Separable",
+        "chi2": 15.75,
+        "pval": 0.3989,
+        "uniform": true,
+        "entropy_pct": 99.93,
+        "deviation_pct": 25.39
+      },
+      {
+        "n": 4,
+        "mode": "Entangled",
+        "chi2": 12.98,
+        "pval": 0.6041,
+        "uniform": true,
+        "entropy_pct": 99.94,
+        "deviation_pct": 19.92
+      }
+    ],
+    "hw": {
+      "2q": {
+        "job_id": "d7g3206a0v2s738abmag",
+        "chi2": 22.21,
+        "pval": 0.0001,
+        "uniform": false,
+        "entropy_pct": 99.21,
+        "deviation_pct": 31.64
+      },
+      "3q": {
+        "job_id": "d7g3226a0v2s738abmd0",
+        "chi2": 20.69,
+        "pval": 0.0043,
+        "uniform": false,
+        "entropy_pct": 99.51,
+        "deviation_pct": 41.41
+      },
+      "4q": {
+        "job_id": "d7g3245p8b1s73arl9rg",
+        "chi2": 23.0,
+        "pval": 0.0841,
+        "uniform": true,
+        "entropy_pct": 99.6,
+        "deviation_pct": 43.75
+      },
+      "5q": {
+        "job_id": "d7g326182hoc738mhf6g",
+        "chi2": 47.69,
+        "pval": 0.0282,
+        "uniform": false,
+        "entropy_pct": 99.3,
+        "deviation_pct": 84.38
+      }
+    }
+  }
+}

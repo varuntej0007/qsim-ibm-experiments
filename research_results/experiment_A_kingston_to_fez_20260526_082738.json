@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-05-26 08:27:38",
+  "data": {
+    "source": "ibm_kingston",
+    "target": "ibm_fez",
+    "source_gamma": 1.0658,
+    "source_beta": 0.6013,
+    "source_prob": 0.4502,
+    "transferred_prob": 0.4277,
+    "transferred_job": "d8agn7lg7okc73eprl2g",
+    "fresh_gamma": 1.0783,
+    "fresh_beta": 0.6019,
+    "fresh_prob": 0.4482,
+    "fresh_job": "d8ago6tg7okc73eprm9g",
+    "transfer_quality_pct": 95.4,
+    "gamma_shift": 0.0125,
+    "beta_shift": 0.0006,
+    "cobyla_log": [
+      {
+        "job_id": "d8agnah789is7394g0mg",
+        "gamma": 1.0658,
+        "beta": 0.6013,
+        "prob": 0.4355
+      },
+      {
+        "job_id": "d8agncgp0eas73dpqt7g",
+        "gamma": 1.2658,
+        "beta": 0.6013,
+        "prob": 0.3691
+      },
+      {
+        "job_id": "d8agneis46sc73fbqk7g",
+        "gamma": 1.0658,
+        "beta": 0.8013,
+        "prob": 0.3984
+      },
+      {
+        "job_id": "d8agngas46sc73fbqk9g",
+        "gamma": 0.8912,
+        "beta": 0.5037,
+        "prob": 0.248
+      },
+      {
+        "job_id": "d8agni5g7okc73eprlh0",
+        "gamma": 0.9785,
+        "beta": 0.5525,
+        "prob": 0.3457
+      },
+      {
+        "job_id": "d8agnk0p0eas73dpqth0",
+        "gamma": 1.1151,
+        "beta": 0.5932,
+        "prob": 0.4023
+      },
+      {
+        "job_id": "d8agnm9789is7394g140",
+        "gamma": 1.0598,
+        "beta": 0.6509,
+        "prob": 0.4219
+      },
+      {
+        "job_id": "d8agnodg7okc73eprlo0",
+        "gamma": 1.0434,
+        "beta": 0.5902,
+        "prob": 0.3535
+      },
+      {
+        "job_id": "d8agnqdg7okc73eprlq0",
+        "gamma": 1.0783,
+        "beta": 0.6019,
+        "prob": 0.4727
+      },
+      {
+        "job_id": "d8agns2s46sc73fbqkmg",
+        "gamma": 1.0893,
+        "beta": 0.6077,
+        "prob": 0.4316
+      },
+      {
+        "job_id": "d8agntp789is7394g1dg",
+        "gamma": 1.0814,
+        "beta": 0.5898,
+        "prob": 0.4004
+      },
+      {
+        "job_id": "d8agnvh789is7394g1g0",
+        "gamma": 1.0806,
+        "beta": 0.6077,
+        "prob": 0.3809
+      },
+      {
+        "job_id": "d8ago1dg7okc73eprm20",
+        "gamma": 1.0752,
+        "beta": 0.6016,
+        "prob": 0.3594
+      },
+      {
+        "job_id": "d8ago31789is7394g1k0",
+        "gamma": 1.0807,
+        "beta": 0.5999,
+        "prob": 0.4277
+      },
+      {
+        "job_id": "d8ago4op0eas73dpqu3g",
+        "gamma": 1.079,
+        "beta": 0.6033,
+        "prob": 0.4199
+      }
+    ]
+  }
+}

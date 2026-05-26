@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-05-26 09:16:15",
+  "backend": "ibm_fez",
+  "best_params": {
+    "gamma": 1.0783,
+    "beta": 0.6019
+  },
+  "transferred_params": {
+    "gamma": 1.0658,
+    "beta": 0.6013
+  },
+  "best_probs": [
+    0.4082,
+    0.4209,
+    0.4053,
+    0.4053,
+    0.4189,
+    0.3955
+  ],
+  "trans_probs": [
+    0.4199,
+    0.3779,
+    0.417,
+    0.3809,
+    0.4121,
+    0.4199
+  ],
+  "best_mean": 0.409,
+  "best_std": 0.0087,
+  "trans_mean": 0.4046,
+  "trans_std": 0.018,
+  "diff": 0.0044,
+  "t_stat": 0.4908,
+  "p_value": 0.6382,
+  "significant": false
+}

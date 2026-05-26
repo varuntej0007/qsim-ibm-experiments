@@ -1,0 +1,302 @@
+{
+  "timestamp": "2026-05-26 14:21:41",
+  "backend": "ibm_fez",
+  "ring_params": {
+    "gamma": 1.0658,
+    "beta": 0.6013
+  },
+  "results": {
+    "ring": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "max_cut": 4,
+      "optimal_states": [
+        "0101",
+        "1010"
+      ],
+      "transferred_prob": 0.4072,
+      "transferred_job": "d8ak3nas46sc73fbv7s0",
+      "fresh_gamma": 1.1688,
+      "fresh_beta": 0.6463,
+      "fresh_prob": 0.3975,
+      "fresh_job": "d8alre9789is7394mk1g",
+      "transfer_quality_pct": 102.5,
+      "gamma_shift": 0.103,
+      "beta_shift": 0.045,
+      "cobyla_log": [
+        {
+          "job_id": "d8alggtg7okc73eq2000",
+          "g": 1.0658,
+          "b": 0.6013,
+          "p": 0.4004
+        },
+        {
+          "job_id": "d8all02s46sc73fc12i0",
+          "g": 1.2658,
+          "b": 0.6013,
+          "p": 0.3379
+        },
+        {
+          "job_id": "d8alqqtg7okc73eq2bog",
+          "g": 1.0658,
+          "b": 0.8013,
+          "p": 0.3926
+        },
+        {
+          "job_id": "d8alqt5g7okc73eq2bs0",
+          "g": 0.8673,
+          "b": 0.5765,
+          "p": 0.2422
+        },
+        {
+          "job_id": "d8alqv0p0eas73dq1i0g",
+          "g": 1.1657,
+          "b": 0.5964,
+          "p": 0.4121
+        },
+        {
+          "job_id": "d8alr0tg7okc73eq2c0g",
+          "g": 1.2604,
+          "b": 0.5644,
+          "p": 0.3594
+        },
+        {
+          "job_id": "d8alr30p0eas73dq1i60",
+          "g": 1.1577,
+          "b": 0.5728,
+          "p": 0.3633
+        },
+        {
+          "job_id": "d8alr4p789is7394mjmg",
+          "g": 1.1688,
+          "b": 0.6463,
+          "p": 0.4453
+        },
+        {
+          "job_id": "d8alr6h789is7394mjog",
+          "g": 1.1474,
+          "b": 0.6915,
+          "p": 0.4297
+        },
+        {
+          "job_id": "d8alr8h789is7394mjr0",
+          "g": 1.1778,
+          "b": 0.6506,
+          "p": 0.4336
+        }
+      ]
+    },
+    "chain": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "max_cut": 3,
+      "optimal_states": [
+        "0101",
+        "1010"
+      ],
+      "transferred_prob": 0.0537,
+      "transferred_job": "d8alrg2s46sc73fc1agg",
+      "fresh_gamma": 1.5722,
+      "fresh_beta": 0.594,
+      "fresh_prob": 0.1064,
+      "fresh_job": "d8alsnas46sc73fc1bug",
+      "transfer_quality_pct": 50.5,
+      "gamma_shift": 0.5064,
+      "beta_shift": -0.0073,
+      "cobyla_log": [
+        {
+          "job_id": "d8alrhtg7okc73eq2ck0",
+          "g": 1.0658,
+          "b": 0.6013,
+          "p": 0.0566
+        },
+        {
+          "job_id": "d8alrjh789is7394mk7g",
+          "g": 1.2658,
+          "b": 0.6013,
+          "p": 0.1055
+        },
+        {
+          "job_id": "d8alrlas46sc73fc1an0",
+          "g": 1.2658,
+          "b": 0.8013,
+          "p": 0.0625
+        },
+        {
+          "job_id": "d8alrn0p0eas73dq1j0g",
+          "g": 1.4159,
+          "b": 0.4692,
+          "p": 0.1562
+        },
+        {
+          "job_id": "d8alrp0p0eas73dq1j40",
+          "g": 1.6441,
+          "b": 0.1406,
+          "p": 0.1172
+        },
+        {
+          "job_id": "d8alrr0p0eas73dq1j8g",
+          "g": 1.5722,
+          "b": 0.594,
+          "p": 0.1621
+        },
+        {
+          "job_id": "d8alsg1789is7394ml7g",
+          "g": 1.7142,
+          "b": 0.4531,
+          "p": 0.084
+        },
+        {
+          "job_id": "d8alshop0eas73dq1k3g",
+          "g": 1.5157,
+          "b": 0.6765,
+          "p": 0.1387
+        },
+        {
+          "job_id": "d8alsjtg7okc73eq2dt0",
+          "g": 1.5928,
+          "b": 0.6081,
+          "p": 0.125
+        },
+        {
+          "job_id": "d8alsllg7okc73eq2dv0",
+          "g": 1.5359,
+          "b": 0.5597,
+          "p": 0.1484
+        }
+      ]
+    },
+    "triangle": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "max_cut": 3,
+      "optimal_states": [
+        "0010",
+        "0101",
+        "0110",
+        "1001",
+        "1010",
+        "1101"
+      ],
+      "transferred_prob": 0.2305,
+      "transferred_job": "d8alspas46sc73fc1c1g",
+      "fresh_gamma": 1.4245,
+      "fresh_beta": 0.4796,
+      "fresh_prob": 0.415,
+      "fresh_job": "d8altl2s46sc73fc1d70",
+      "transfer_quality_pct": 55.5,
+      "gamma_shift": 0.3587,
+      "beta_shift": -0.1217,
+      "cobyla_log": [
+        {
+          "job_id": "d8alsr0p0eas73dq1kgg",
+          "g": 1.0658,
+          "b": 0.6013,
+          "p": 0.2188
+        },
+        {
+          "job_id": "d8alsstg7okc73eq2e8g",
+          "g": 1.2658,
+          "b": 0.6013,
+          "p": 0.3945
+        },
+        {
+          "job_id": "d8alsuh789is7394mlt0",
+          "g": 1.2658,
+          "b": 0.8013,
+          "p": 0.2598
+        },
+        {
+          "job_id": "d8alt4gp0eas73dq1ks0",
+          "g": 1.4245,
+          "b": 0.4796,
+          "p": 0.4492
+        },
+        {
+          "job_id": "d8alt6gp0eas73dq1kug",
+          "g": 1.375,
+          "b": 0.2858,
+          "p": 0.4277
+        },
+        {
+          "job_id": "d8alt8as46sc73fc1ckg",
+          "g": 1.5244,
+          "b": 0.4849,
+          "p": 0.4023
+        },
+        {
+          "job_id": "d8alta5g7okc73eq2eog",
+          "g": 1.3795,
+          "b": 0.5014,
+          "p": 0.416
+        },
+        {
+          "job_id": "d8altbqs46sc73fc1cpg",
+          "g": 1.4289,
+          "b": 0.4886,
+          "p": 0.3887
+        },
+        {
+          "job_id": "d8altdh789is7394mmfg",
+          "g": 1.4178,
+          "b": 0.4608,
+          "p": 0.4316
+        },
+        {
+          "job_id": "d8altj2s46sc73fc1d20",
+          "g": 1.4339,
+          "b": 0.4763,
+          "p": 0.416
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-05-25 21:30:04",
+  "data": {
+    "transferred_prob": 0.4478,
+    "fresh_prob": 0.4712,
+    "fresh_gamma": 1.1069,
+    "fresh_beta": 0.6335,
+    "transfer_quality_pct": 95.0
+  }
+}

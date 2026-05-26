@@ -1,0 +1,67 @@
+{
+  "backend": "ibm_fez",
+  "pairs": [
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "fidelity": 0.9824,
+      "job_id": "d8am1jtg7okc73eq2k8g"
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "fidelity": 0.9678,
+      "job_id": "d8am181789is7394mr60"
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "fidelity": 0.9648,
+      "job_id": "d8am1bp789is7394mrd0"
+    },
+    {
+      "pair": [
+        3,
+        16
+      ],
+      "fidelity": 0.9639,
+      "job_id": "d8am1dh789is7394mrfg"
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "fidelity": 0.9463,
+      "job_id": "d8am168p0eas73dq1psg"
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "fidelity": 0.9453,
+      "job_id": "d8am19op0eas73dq1q0g"
+    }
+  ],
+  "best_pair": [
+    4,
+    5
+  ],
+  "guided_layout": [
+    4,
+    5,
+    0,
+    1
+  ],
+  "qaoa_default": 0.4043,
+  "qaoa_guided": 0.373,
+  "improvement_pct": -7.73,
+  "finding": "NEGATIVE (-7.7%): Transpiler wins. Uses more calibration data."
+}
