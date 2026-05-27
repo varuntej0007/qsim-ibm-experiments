@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-27 09:27:56",
+  "backend": "ibm_fez",
+  "bell_noise_pct": 3.027,
+  "transferred_prob_mean": 0.3988,
+  "transferred_probs": [
+    0.4004,
+    0.3887,
+    0.4072
+  ],
+  "bell_job": "d8b6q25mdd1s73b9534g",
+  "qaoa_jobs": [
+    "d8b6qjtmdd1s73b953r0",
+    "d8b6qmke6kns73aalf6g",
+    "d8b6qoh59p8c73bm3irg"
+  ]
+}

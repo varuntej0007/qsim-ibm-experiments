@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-27 09:16:17",
+  "data": {
+    "backend": "ibm_fez",
+    "scales": {
+      "1x": {
+        "prob": 0.3994,
+        "depth": 55,
+        "job_id": "d8b6ht4e6kns73aal4ng"
+      },
+      "2x": {
+        "prob": 0.3887,
+        "depth": 55,
+        "job_id": "d8b6huse6kns73aal4pg"
+      },
+      "3x": {
+        "prob": 0.415,
+        "depth": 55,
+        "job_id": "d8b6i0se6kns73aal4sg"
+      }
+    },
+    "zne_prob": 0.4473,
+    "improvement_pct": 12.0,
+    "finding": "ZNE HELPS: 12.0% improvement on QAOA."
+  }
+}
