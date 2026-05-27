@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-05-27 16:52:33",
+  "platform": "Raspberry Pi 5 ARM Cortex-A76",
+  "has_dilithium": false,
+  "results": {
+    "idle_RSA-keygen": 288.6907732599866,
+    "idle_RSA-sign": 3.9488510200021665,
+    "idle": {
+      "description": "No background load",
+      "cpu_pct": 0,
+      "ops": {
+        "RSA-keygen": {
+          "mean_ms": 288.691,
+          "std_ms": 175.229,
+          "p95_ms": 678.449,
+          "overhead_pct": 0.0
+        },
+        "RSA-sign": {
+          "mean_ms": 3.949,
+          "std_ms": 0.658,
+          "p95_ms": 4.808,
+          "overhead_pct": 0.0
+        }
+      }
+    },
+    "cpu_25": {
+      "description": "25% CPU (light IoT task)",
+      "cpu_pct": 25,
+      "ops": {
+        "RSA-keygen": {
+          "mean_ms": 384.849,
+          "std_ms": 246.739,
+          "p95_ms": 844.413,
+          "overhead_pct": 33.3
+        },
+        "RSA-sign": {
+          "mean_ms": 3.814,
+          "std_ms": 0.217,
+          "p95_ms": 4.03,
+          "overhead_pct": -3.4
+        }
+      }
+    },
+    "cpu_50": {
+      "description": "50% CPU (MQTT + sensors)",
+      "cpu_pct": 50,
+      "ops": {
+        "RSA-keygen": {
+          "mean_ms": 302.105,
+          "std_ms": 199.021,
+          "p95_ms": 737.509,
+          "overhead_pct": 4.6
+        },
+        "RSA-sign": {
+          "mean_ms": 3.846,
+          "std_ms": 0.297,
+          "p95_ms": 4.691,
+          "overhead_pct": -2.6
+        }
+      }
+    },
+    "cpu_100": {
+      "description": "100% CPU (heavy processing)",
+      "cpu_pct": 100,
+      "ops": {
+        "RSA-keygen": {
+          "mean_ms": 397.807,
+          "std_ms": 205.896,
+          "p95_ms": 781.682,
+          "overhead_pct": 37.8
+        },
+        "RSA-sign": {
+          "mean_ms": 3.925,
+          "std_ms": 0.517,
+          "p95_ms": 4.914,
+          "overhead_pct": -0.6
+        }
+      }
+    }
+  },
+  "finding": "MODERATE: 37.8% worst case. Needs scheduling under heavy load."
+}
