@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-05-27 22:38:03",
+  "backend": "ibm_fez",
+  "results": {
+    "pair_01": {
+      "pair": [
+        0,
+        1
+      ],
+      "fidelity_today": 0.9297,
+      "fidelity_april": 0.9775,
+      "drift": -0.0478,
+      "stable": false,
+      "job_id": "d8biceb8ch0s738ti840"
+    },
+    "pair_12": {
+      "pair": [
+        1,
+        2
+      ],
+      "fidelity_today": 0.9609,
+      "fidelity_april": 0.9775,
+      "drift": -0.0166,
+      "stable": false,
+      "job_id": "d8bicmb8amns73bi7gng"
+    },
+    "pair_23": {
+      "pair": [
+        2,
+        3
+      ],
+      "fidelity_today": 0.9512,
+      "fidelity_april": 0.9775,
+      "drift": -0.0263,
+      "stable": false,
+      "job_id": "d8bico38ch0s738ti8ng"
+    },
+    "pair_03": {
+      "pair": [
+        0,
+        3
+      ],
+      "fidelity_today": 0.9512,
+      "fidelity_april": 0.9863,
+      "drift": -0.0351,
+      "stable": false,
+      "job_id": "d8bicpr8ch0s738ti8s0"
+    },
+    "pair_13": {
+      "pair": [
+        1,
+        3
+      ],
+      "fidelity_today": 0.9688,
+      "fidelity_april": 0.9883,
+      "drift": -0.0195,
+      "stable": false,
+      "job_id": "d8bicrr8amns73bi7h40"
+    }
+  },
+  "finding": "STABLE: Same pair (pair_13) is still best after 5+ weeks. IBM qubit quality is consistent."
+}

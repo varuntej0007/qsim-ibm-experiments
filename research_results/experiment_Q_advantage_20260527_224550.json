@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-05-27 22:45:50",
+  "backend": "ibm_fez",
+  "bell_noise_pct": 1.953,
+  "qaoa_prob": 0.4678,
+  "random_baseline": 0.125,
+  "advantage_factor": 3.74,
+  "bell_job": "d8big338ch0s738tid0g",
+  "qaoa_job": "d8big6k7avuc73dpm4og",
+  "all_datapoints": [
+    {
+      "ts": "2026-05-26 14:29",
+      "bell_pct": 1.855,
+      "qaoa": 0.4033,
+      "advantage": 3.23
+    },
+    {
+      "ts": "2026-05-26 20:00",
+      "bell_pct": 1.562,
+      "qaoa": 0.4043,
+      "advantage": 3.23
+    },
+    {
+      "ts": "2026-05-27 09:00",
+      "bell_pct": 4.004,
+      "qaoa": 0.3799,
+      "advantage": 3.04
+    },
+    {
+      "ts": "2026-05-27 17:19",
+      "bell_pct": 2.148,
+      "qaoa": 0.4473,
+      "advantage": 3.58
+    },
+    {
+      "ts": "2026-05-26 20:13",
+      "bell_pct": 4.004,
+      "qaoa": 0.4056,
+      "advantage": 3.24
+    },
+    {
+      "ts": "2026-05-27 09:27",
+      "bell_pct": 3.027,
+      "qaoa": 0.3988,
+      "advantage": 3.19
+    },
+    {
+      "ts": "2026-05-27 22:45",
+      "bell_pct": 1.953,
+      "qaoa": 0.4678,
+      "advantage": 3.74
+    }
+  ]
+}

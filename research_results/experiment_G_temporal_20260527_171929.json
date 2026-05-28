@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-05-27 17:19:29",
+  "hour": 17,
+  "backend": "ibm_fez",
+  "circuits": {
+    "Bell_2Q": {
+      "noise_pct": 2.148,
+      "job_id": "d8bdn3uhonmc73cjrva0"
+    },
+    "GHZ_3Q": {
+      "noise_pct": 2.734,
+      "job_id": "d8bdnitmdd1s73b9dof0"
+    },
+    "BV_1011": {
+      "noise_pct": 8.203,
+      "job_id": "d8bdnl959p8c73bmca20"
+    },
+    "QAOA": {
+      "opt_prob": 0.4473,
+      "job_id": "d8bdnnke6kns73aau550"
+    }
+  }
+}
